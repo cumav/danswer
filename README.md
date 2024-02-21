@@ -1,3 +1,16 @@
+# TODO
+Change: https://github.com/danswer-ai/danswer/blob/main/backend/danswer/llm/custom_llm.py
+
+Then: 
+https://github.com/danswer-ai/danswer/blob/cc69ba03a6eaf45567804ff71d4f4904a7b06d68/deployment/docker_compose/env.prod.template#L11
+
+GEN_AI_MODEL_PROVIDER=custom
+GEN_AI_API_KEY=<your-model-server-api-key-or-leave-unset>
+GEN_AI_API_ENDPOINT=<your-custom-model-endpoint-url>
+
+Doc
+https://docs.danswer.dev/gen_ai_configs/custom_server
+
 <!-- DANSWER_METADATA={"link": "https://github.com/danswer-ai/danswer/blob/main/README.md"} -->
 
 <h2 align="center">
